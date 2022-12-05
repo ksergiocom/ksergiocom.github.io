@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ksergio.com</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="min-h-screen w-full tracking-tighter text-white overflow-hidden">
+      <!-- Hero -->
+      <section
+        id="hero"
+        class="p-5 pb-24 h-screen flex flex-col justify-between bg-black"
+      >
+        <a href=""><h3 class="text-3xl font-bold reveal lg:w-1/3 mx-auto lg:text-center">
+          ksergio<span class="text-xl text-yellow-500">.com</span>
+        </h3></a>
+        <div class="reveal lg:text-center">
+          <h1 class="text-5xl mb-5 lg:w-1/3 mx-auto">
+            Fullstack <span class="text-yellow-500">JavaScript</span> web
+            development
+          </h1>
+          <p class="text-lg lg:w-1/3 mx-auto">
+            Hi my name is Sergio! I'm a self-learned programmist mainly focused
+            in web development with <strong class="text-yellow-500">JS</strong>.
+            Besides I enjoy using other languages as
+            <strong class="text-yellow-500">PHP</strong> and
+            <strong class="text-yellow-500">Python</strong> in addition to
+            explore areas like linux, databases, cloud services and more.
+          </p>
+        </div>
+        <a href="#stack" class="reveal lg:w-1/3 lg:mx-auto lg:text-center hover:text-yellow-300 transition-all">
+          <i
+            class="fa-sharp fa-solid fa-arrow-down px-3 motion-safe:animate-bounce text-yellow-500 mx-auto"
+          ></i>
+          <br />
+          <small>Check out my stack</small>
+        </a>
+      </section>
+
+      <!-- Stack -->
+      <section
+        class="p-5 pb-24  h-screen bg-gradient-to-bl from-green-600 to-green-800 flex flex-col justify-between "
+        id="stack"
+      >
+        <a href="#hero" class="reveal lg:w-1/3 lg:mx-auto lg:text-center hover:text-green-300 transition-all">
+          <small>Go back to landing page</small> <br />
+          <i
+            class="fa-sharp fa-solid fa-arrow-up px-3 motion-safe:animate-bounce text-green-400"
+          ></i>
+        </a>
+        <div class="reveal">
+          <h2 class="text-5xl mb-5 lg:w-1/3 mx-auto lg:text-center">Some technologies I love using</h2>
+          <p class="text- mb-5 lg:w-1/3 mx-auto lg:text-center">
+            Im proficient in frontend using <strong>Vue</strong> /
+            <strong>Nuxt</strong> and <strong>React</strong> /
+            <strong>Next</strong> knowing some styling frameworks as
+            <strong>Bootstrap</strong>, <strong>Tailwind</strong> or
+            <strong>Material Design</strong> as well as raw
+            <strong>css</strong>, with and without
+            <strong>preprocessors</strong>.
+          </p>
+          <p class="text-base lg:w-1/3 mx-auto lg:text-center">
+            I love to work with <strong>ExpressJS</strong>,
+            <strong>Laravel</strong> and <strong>Flask</strong> for backend. I
+            keep learning and exploring about new development methodologies to
+            improve speed and quality at coding.
+          </p>
+        </div>
+        <a href="#project" class="reveal lg:w-1/3 lg:mx-auto lg:text-center hover:text-green-300 transition-all">
+          <i
+            class="fa-sharp fa-solid fa-arrow-down px-3 motion-safe:animate-bounce text-green-400"
+          ></i>
+          <br />
+          <small>See my projects</small></a
+        >
+      </section>
+
+      <!-- Projects -->
+      <section
+        id="project"
+        class="p-5 pb-24  bg-gray-100 text-gray-900 h-screen flex flex-col justify-between "
+      >
+        <a href="#stack" class="reveal lg:w-1/3 lg:mx-auto lg:text-center hover:text-green-700 transition-all">
+          <small>Go back to my stack</small> <br />
+          <i
+            class="fa-sharp fa-solid fa-arrow-up px-3 motion-safe:animate-bounce text-green-400"
+          ></i>
+        </a>
+        <div class="reveal text-right">
+          <h2 class="text-5xl mb-2 lg:w-1/3 mx-auto">My projects</h2>
+          <p class="mb-10 lg:w-1/3 mx-auto">
+            Here I have a small collection of projects I do in my spare time
+          </p>
+          <ul class="text-green-500 flex flex-col gap-1 text-xl text-left lg:w-1/3 mx-auto">
+            <li><a href="https://ksergio.com">www.ksergio.com</a></li>
+            <li><a href="https://noticiasweb.info">www.noticiasweb.info</a></li>
+          </ul>
+        </div>
+        <div class="lg:w-1/3 lg:mx-auto lg:text-center hover:text-green-700 transition-all">
+          <a href="#about" class="reveal"><i
+            class="fa-sharp fa-solid fa-arrow-down px-3 motion-safe:animate-bounce text-green-400  "
+          ></i>
+          <br />
+            <small>Know more about me</small>
+          </a>
+        </div>
+      </section>
+      <!-- About me -->
+      <section
+        id="about"
+        class="p-5 pb-24  bg-gradient-to-b from-purple-500 to-purple-900 to h-screen flex flex-col  justify-between relative"
+      >
+        <img
+          src="./desk.webp"
+          class="absolute top-0 left-0 h-full w-full object-cover opacity-10 z-0 blur-sm"
+        />
+          <a href="#project" class="reveal lg:w-1/3 mx-auto text-center hover:text-purple-800 transition-all">
+          <small>Go back to my projects</small> <br />
+          <i
+            class="fa-sharp fa-solid fa-arrow-up px-3 motion-safe:animate-bounce text-purple-700 "
+          ></i>
+        </a>
+        <div class="reveal relative z-10 text-center h-3/5 lg:h-fit">
+          <h2 class="text-5xl mb-5 font-bold">Hello World!</h2>
+          <p class="mb-2">
+						If you need to contact me just write me to <a class="text-yellow-400" href="mailto:sergio@ksergio.com">sergio@ksergio.com</a>
+          </p>
+					<p class="mb-7">Or you can follow me on my social media</p>
+					<ul class="flex gap-5 justify-center">
+						<li><i class="fa-brands fa-github text-3xl"></i></li>
+						<li><i class="fa-brands fa-twitter text-3xl"></i></li>
+						<li><i class="fa-brands fa-instagram text-3xl"></i></li>
+						<li><i class="fa-brands fa-facebook text-3xl"></i></li>
+					</ul>
+        </div>
+        <footer class="reveal lg:w-1/3 mx-auto lg:text-center hover:text-purple-400 transition-all"><a href="#hero">ksergio.com 2022</a></footer>
+      </section>
+    <script src="./reveal.js"></script>
+		<script src="./touch.js"></script>
+  </body>
+</html>
